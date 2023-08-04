@@ -24,7 +24,6 @@ const GroupPageTemplate = () => {
   };
 
   useEffect(() => {
-    document.title = '풍무그룹';
     window.scrollTo({ top: 0 });
   }, []);
 
